@@ -2,7 +2,7 @@ package com.xiaqing.service.impl;
 
 import java.util.List;
 
-import jakarta.inject.Inject;
+import javax.inject.Inject;
 
 import com.xiaqing.dao.ICategoryDAO;
 import com.xiaqing.model.CategoryModel;

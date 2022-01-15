@@ -3,7 +3,7 @@ package com.xiaqing.service.impl;
 import java.sql.Date;
 import java.util.List;
 
-import jakarta.inject.Inject;
+import javax.inject.Inject;
 
 import com.xiaqing.dao.ICategoryDAO;
 import com.xiaqing.dao.INewDAO;

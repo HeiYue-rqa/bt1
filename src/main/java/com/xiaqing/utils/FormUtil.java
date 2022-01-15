@@ -2,7 +2,7 @@ package com.xiaqing.utils;
 
 import java.lang.reflect.InvocationTargetException;
 
-import jakarta.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletRequest;
 
 import org.apache.commons.beanutils.BeanUtils;
 

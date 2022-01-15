@@ -7,7 +7,7 @@ import com.xiaqing.dao.ICommentDAO;
 import com.xiaqing.model.CommentModel;
 import com.xiaqing.service.ICommentService;
 
-import jakarta.inject.Inject;
+import javax.inject.Inject;
 
 public class CommentService implements ICommentService {
 	

@@ -3,20 +3,19 @@ package com.xiaqing.controller.web;
 import java.io.IOException;
 import java.util.ResourceBundle;
 
+import javax.inject.Inject;
+import javax.servlet.RequestDispatcher;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+
 import com.xiaqing.model.UserModel;
 import com.xiaqing.service.ICategoryService;
-import com.xiaqing.service.INewService;
 import com.xiaqing.service.IUserService;
 import com.xiaqing.utils.FormUtil;
 import com.xiaqing.utils.SessionUtil;
-
-import jakarta.inject.Inject;
-import jakarta.servlet.RequestDispatcher;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = {"/trang-chu","/dang-nhap","/thoat"})
 public class HomeController extends HttpServlet{
@@ -26,9 +25,6 @@ public class HomeController extends HttpServlet{
 	
 	@Inject
 	private IUserService userService;
-	
-	@Inject
-	private INewService newService;
 
 	ResourceBundle resourceBundle = ResourceBundle.getBundle("message");
 	

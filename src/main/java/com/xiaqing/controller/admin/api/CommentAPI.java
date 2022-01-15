@@ -9,12 +9,12 @@ import com.xiaqing.service.ICommentService;
 import com.xiaqing.utils.HttpUtil;
 import com.xiaqing.utils.SessionUtil;
 
-import jakarta.inject.Inject;
-import jakarta.servlet.ServletException;
-import jakarta.servlet.annotation.WebServlet;
-import jakarta.servlet.http.HttpServlet;
-import jakarta.servlet.http.HttpServletRequest;
-import jakarta.servlet.http.HttpServletResponse;
+import javax.inject.Inject;
+import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
+import javax.servlet.http.HttpServlet;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
 @WebServlet(urlPatterns = {"/api-admin-comment"})
 public class CommentAPI extends HttpServlet {

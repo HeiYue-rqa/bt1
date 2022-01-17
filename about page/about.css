@@ -1,3 +1,13 @@
+.container-bg-img{
+  background-image: url("/about-page/img/img3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.team-bg-color{
+  background-image: linear-gradient(0, #134ff2, #cbfeff);
+}
+
 .btn-space{
   margin-top: 20px;
 }
@@ -11,7 +21,16 @@
   max-width: 72%;
 }
 
-.title-name{
+.title-res{
   display: flex;
   justify-content: center;
+  margin: 0 -30px;
+}
+
+.title-color{
+  color: #f1f3ff;
+}
+
+.head-text-color{
+  color: #ffffff;
 }

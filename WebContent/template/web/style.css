@@ -3,12 +3,17 @@
   --primary-color: #072d94;
 }
 
-p {
-  text-align: justify;
+.container-bg-img{
+  background-image: url("/template/general/img/img3.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
-header p{
-	text-align: center;
+.gif-img{
+  background-image: url("/template/web/img/giphy1.gif");
+  background-size: 10%;
+  background-position: bottom left 250px;
+  background-repeat: no-repeat;
 }
 
 .special-bg {
@@ -18,12 +23,29 @@ header p{
   text-shadow: 2px 2px #ff0000;
 }
 
+p {
+  text-align: justify;
+}
+
+header p{
+	text-align: center;
+}
+
 nav.navbar {
   background-color: var(--primary-color);
 }
 
 .navbar-brand img {
 	width: 32px;
+}
+
+.navbar .dropdown-menu {
+    margin-left: -12px;
+    margin-right: -12px;
+}
+
+.navbar .dropdown-menu li {
+	padding-left: 24px;
 }
 
 .bd-callout {
@@ -79,6 +101,10 @@ footer a.text-white:hover {
     background: bottom right / cover no-repeat
       url("/template/web/img/background.png");
   }
+  
+  .gif-img{
+  background-position: bottom left 300px;
+}
 
   .card-img-top {
     width: 100%;

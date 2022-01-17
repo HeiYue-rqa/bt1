@@ -3,7 +3,6 @@ package com.xiaqing.service;
 import java.util.List;
 
 import com.xiaqing.model.NewModel;
-import com.xiaqing.paging.Pageble;
 
 public interface INewService {
 	List<NewModel> findAll();

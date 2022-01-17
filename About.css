@@ -1,0 +1,10 @@
+@charset "UTF-8";
+body{
+            max-width: 70%;          
+        }
+ p {
+            text-align: justify;    
+        }
+ .image{
+            width: 100%;
+        }

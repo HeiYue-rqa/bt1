@@ -9,7 +9,6 @@ import com.xiaqing.dao.ICategoryDAO;
 import com.xiaqing.dao.INewDAO;
 import com.xiaqing.model.CategoryModel;
 import com.xiaqing.model.NewModel;
-import com.xiaqing.paging.Pageble;
 import com.xiaqing.service.INewService;
 
 public class NewService implements INewService {
